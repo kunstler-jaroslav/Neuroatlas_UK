@@ -1,0 +1,142 @@
+:root 
+{
+    --pink: #E82B63;
+    --dark: #1D232F;
+    --blue: #305581;
+    --light: #5B7290;
+    --black: #000000;
+    --white: #ffffff;
+    --medium: #394657;
+}
+
+body
+{
+    background: var(--medium);
+}
+
+@media (min-width: 320px) and (max-width: 480px)
+{
+    .link
+    {
+        color: var(--white);
+        text-decoration: none;
+        font-weight: 600;
+        font-family: inherit;
+        font-size: 3em;
+    }
+
+    .link:hover
+    {
+        color: var(--light);
+    }
+
+    #TableHolder
+    {
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+
+    #table
+    {
+        background-color: transparent;
+    }
+    
+
+    .thing
+    {
+        width: 80%;
+        height: auto;
+        background-color: transparent;
+        margin-top: 5%;
+        text-align: left;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 999px)
+{
+    .link
+    {
+        color: var(--white);
+        text-decoration: none;
+        font-weight: 600;
+        font-family: inherit;
+        font-size: 3em;
+    }
+
+    .link:hover
+    {
+        color: var(--dark);
+    }
+
+    #TableHolder
+    {
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+
+    #table
+    {
+        background-color: transparent;
+        padding-left: 10%;
+    }
+    
+
+    .thing
+    {
+        width: 40%;
+        height: auto;
+        background-color: transparent;
+        display: inline-block;
+        margin-top: 5%;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1000px)
+{
+    .link
+    {
+        color: var(--white);
+        text-decoration: none;
+        font-weight: 400;
+        font-family: inherit;
+        font-size: 1.2em;
+    }
+
+    .link:hover
+    {
+        color: var(--dark);
+    }
+
+    #TableHolder
+    {
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+
+    #table
+    {
+        padding-left: 10%;
+        background-color: transparent;
+    }
+    
+
+    .thing
+    {
+        width: 33%;
+        height: auto;
+        background-color: transparent;
+        display: inline-block;
+        margin-top: 5%;
+        text-align: left;
+    }
+}

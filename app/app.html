@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Neuroatlas</title>
+        <script src="appScript.js"></script>
+        <link rel="stylesheet" href="appStyles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap">
+    </head>
+    <body onload="startup()">
+    <div class="content">
+        <div class="picker">
+            <div class="cutNumberBoxHolder">
+            <div class="cutNumberBox">
+                <button onclick="btnClick(0)" class="cutNumberButtonOn" id = "number0">1</button>
+                <button onclick="btnClick(1)" class="cutNumberButton" id = "number1">2</button>
+                <button onclick="btnClick(2)" class="cutNumberButton" id = "number2">3</button>
+                <button onclick="btnClick(3)" class="cutNumberButton" id = "number3">4</button>
+                <button onclick="btnClick(4)" class="cutNumberButton" id = "number4">5</button>
+                <button onclick="btnClick(5)" class="cutNumberButton" id = "number5">6</button>
+                <button onclick="btnClick(6)" class="cutNumberButton" id = "number6">7</button>
+                <button onclick="btnClick(7)" class="cutNumberButton" id = "number7">8</button>
+                <button onclick="btnClick(8)" class="cutNumberButton" id = "number8">9</button>
+                <button onclick="btnClick(9)" class="cutNumberButton" id = "number9">10</button>
+                <button onclick="btnClick(10)" class="cutNumberButton" id = "number10">11</button>
+                <button onclick="btnClick(11)" class="cutNumberButton" id = "number11">12</button>
+                <button onclick="btnClick(12)" class="cutNumberButton" id = "number12">13</button>
+                <button onclick="btnClick(13)" class="cutNumberButton" id = "number13">14</button>
+                <button onclick="btnClick(14)" class="cutNumberButtonOn" id = "number14">15</button>
+                <button onclick="btnClick(15)" class="cutNumberButton" id = "number15">16</button>
+                <button onclick="btnClick(16)" class="cutNumberButton" id = "number16">17</button>
+                <button onclick="btnClick(17)" class="cutNumberButton" id = "number17">18</button>
+                <button onclick="btnClick(18)" class="cutNumberButton" id = "number18">19</button>
+                <button onclick="btnClick(19)" class="cutNumberButton" id = "number19">20</button>
+                <button onclick="btnClick(20)" class="cutNumberButton" id = "number20">21</button>
+                <button onclick="btnClick(21)" class="cutNumberButton" id = "number21">22</button>
+                <button onclick="btnClick(22)" class="cutNumberButton" id = "number22">23</button>
+                <button onclick="btnClick(23)" class="cutNumberButton" id = "number23">24</button>
+                <button onclick="btnClick(24)" class="cutNumberButton" id = "number24">25</button>
+                <button onclick="btnClick(25)" class="cutNumberButton" id = "number25">26</button>
+                <button onclick="btnClick(26)" class="cutNumberButton" id = "number26">27</button>
+                <button onclick="btnClick(27)" class="cutNumberButton" id = "number27">28</button>
+                <button onclick="btnClick(28)" class="cutNumberButton" id = "number28">29</button>
+                <button onclick="btnClick(29)" class="cutNumberButton" id = "number29">30</button>
+                <button onclick="btnClick(30)" class="cutNumberButton" id = "number30">31</button>
+            </div>
+            </div>
+
+            <div class="container">
+                <div class="arrowdiv" onclick="arrowClick(0)"><img src="arrowLeft.png" id="left" class="arrows"></div>
+                <div class="cutBox">
+                    
+                    <img src="real.png" id="imageid">
+                    
+                </div>
+                <div class="arrowdiv" onclick="arrowClick(1)"><img src="arrowRight.png" id="right" class="arrows"></div>
+                <div class="cutOptions">
+                    <div><button class="showButtonOn" id="btn0" onclick="show(0)">Picture</button></div>
+                    <div><button class="showButton" id="btn1" onclick="show(1)">Putamen</button></div>
+                    <div><button class="showButton" id="btn2" onclick="show(2)">Nucleus Caldatus</button></div>
+                    <div><button class="showButton" id="btn3" onclick="show(3)">Tractus Opticus</button></div>
+                    <div><button class="showButton" id="btn4" onclick="show(4)">Test</button></div>
+                    <div><button class="showButton" id="btn5" onclick="show(5)">Test</button></div>
+                    <div><button class="showButton" id="btn6" onclick="show(6)">Test</button></div>
+                    <div><button class="showButton" id="btn7" onclick="show(7)">Test</button></div>
+                    <div><button class="showButton" id="btn8" onclick="show(8)">Test</button></div>
+                    <div><button class="showButton" id="btn9" onclick="show(9)">Picture</button></div>
+                    <div><button class="showButton" id="btn10" onclick="show(10)">Putamen</button></div>
+                    <div><button class="showButton" id="btn11" onclick="show(11)">Nucleus Caldatus</button></div>
+                    <div><button class="showButton" id="btn12" onclick="show(12)">Tractus Opticus</button></div>
+                    <div><button class="showButton" id="btn13" onclick="show(13)">Test</button></div>
+                    <div><button class="showButton" id="btn14" onclick="show(14)">Test</button></div>
+                    <div><button class="showButton" id="btn15" onclick="show(15)">Test</button></div>
+                    <div><button class="showButton" id="btn16" onclick="show(16)">Test</button></div>
+                    <div><button class="showButton" id="btn17" onclick="show(17)">Test</button></div>
+                    <div><button class="showButton" id="btn18" onclick="show(18)">Test</button></div>
+                    <div><button class="showButton" id="btn19" onclick="show(19)">Picture</button></div>
+                    <div><button class="showButton" id="btn20" onclick="show(20)">Putamen</button></div>
+                    <div><button class="showButton" id="btn21" onclick="show(21)">Nucleus Caldatus</button></div>
+                    <div><button class="showButton" id="btn22" onclick="show(22)">Tractus Opticus</button></div>
+                    <div><button class="showButton" id="btn23" onclick="show(23)">Test</button></div>
+                    <div><button class="showButton" id="btn24" onclick="show(24)">Test</button></div>
+                    <div><button class="showButton" id="btn25" onclick="show(25)">Test</button></div>
+                    <div><button class="showButton" id="btn26" onclick="show(26)">Test</button></div>
+                    <div><button class="showButton" id="btn27" onclick="show(27)">Test</button></div>
+                    <div><button class="showButton" id="btn28" onclick="show(28)">Test</button></div>
+                    <div><button class="showButton" id="btn29" onclick="show(29)">Test</button></div>
+                    <div><button class="showButton" id="btn30" onclick="show(30)">Test</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="texterHolder">
+            <div class="texter">
+                <p id="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae reiciendis aperiam, corrupti mollitia consectetur, error atque molestiae delectus sit numquam perferendis aspernatur? Nulla quis sapiente sequi, voluptates maiores beatae?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae reiciendis aperiam, corrupti mollitia consectetur, error atque molestiae delectus sit numquam perferendis aspernatur? Nulla quis sapiente sequi, voluptates maiores beatae?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae reiciendis aperiam, corrupti mollitia consectetur, error atque molestiae delectus sit numquam perferendis aspernatur? Nulla quis sapiente sequi, voluptates maiores beatae?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae reiciendis aperiam, corrupti mollitia consectetur, error atque molestiae delectus sit numquam perferendis aspernatur? Nulla quis sapiente sequi, voluptates maiores beatae?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae reiciendis aperiam, corrupti mollitia consectetur, error atque molestiae delectus sit numquam perferendis aspernatur? Nulla quis sapiente sequi, voluptates maiores beatae?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae reiciendis aperiam, corrupti mollitia consectetur, error atque molestiae delectus sit numquam perferendis aspernatur? Nulla quis sapiente sequi, voluptates maiores beatae?
+                </p>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

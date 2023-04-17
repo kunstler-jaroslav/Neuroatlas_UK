@@ -1,0 +1,273 @@
+/* general */
+
+:root 
+{
+    --pink: #E82B63;
+    --dark: #1D232F;
+    --blue: #305581;
+    --light: #5B7290;
+    --black: #000000;
+    --white: #ffffff;
+    --medium: #394657;
+}
+
+body
+{
+    background-color: var(--medium);
+    min-width: 950px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    max-height: 32em;
+    overflow-y: hidden;
+}
+
+.content
+{
+    background-color: transparent;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+
+
+
+/* outer */
+.picker
+{
+    background-color: transparent;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texterHolder
+{
+    background-color: var(--dark);
+    width: 22em;
+    margin-left: 1em;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+.texter
+{
+    background-color: var(--dark);
+    width: 20em;
+    padding: 1em;
+    float: left;
+    color: #ffffff;
+    font-weight: 200;
+    height: 30em;
+    overflow-y: auto;
+}
+
+
+
+
+/* number switching */
+.cutNumberBoxHolder
+{
+    background-color: var(--dark);
+    width:60em;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+.cutNumberBox
+{
+    background-color: var(--dark);
+    width:fit-content;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60em;
+    overflow: auto;
+    display: flex;
+}
+
+.cutNumberButton
+{
+    background-color: transparent;
+    color: var(--white);
+    border-width: 0px;
+    padding: 1em;
+    font: inherit;
+    font-size: small;
+    font-weight: 500;
+}
+
+.cutNumberButton:hover
+{
+    background-color: transparent;
+    color: var(--medium);
+    border-width: 0px;
+    padding: 1em;
+    font: inherit;
+    font-size: small;
+}
+
+.cutNumberButtonOn
+{
+    background-color: transparent;
+    color: var(--light);
+    border-width: 0px;
+    padding: 1em;
+    font: inherit;
+    font-size: small;
+    font-weight: 800;
+}
+
+.cutNumberButtonInvissible
+{
+    display: none;
+}
+
+
+
+
+
+/* cut and picker part */
+.container
+{
+    background-color: var(--dark);
+    width: 60em;
+    height: 32em;
+    padding: 1em;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    content: "";
+    display: flex;
+    clear: both;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.cutBox
+{
+    background-color: transparent;
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.cutOptions
+{
+    background-color: var(--dark);
+    float: left;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 15em;
+    overflow-y: auto;
+}
+
+#scrollHeight
+{
+    height: 4000px;
+}
+
+.showButton
+{
+    background-color: transparent;
+    color: var(--white);
+    border-width: 0px;
+    padding: 0.5em;
+    font: inherit;
+    font-size: small;
+    font-weight: 500;
+}
+
+.showButton:hover
+{
+    background-color: transparent;
+    color: var(--medium);
+    border-width: 0px;
+    padding: 0.5em;
+    font: inherit;
+    font-size: small;
+}
+
+.showButtonOn
+{
+    background-color: transparent;
+    color: var(--light);
+    border-width: 0px;
+    padding: 0.5em;
+    font: inherit;
+    font-size: small;
+    font-weight: 800;
+}
+
+.showButtonInvissible
+{
+    display: none;
+}
+
+
+
+
+/* inner cut */
+#imageid
+{
+    min-width: 15em;
+    max-width: 30em;
+    width: 35em;
+    max-height: 30em;
+}
+
+.arrows
+{
+    width: 3em;
+    height: 3em;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+}
+
+.arrowdiv
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    float: left;
+}
+
+
+
+
+/* scroll */
+::-webkit-scrollbar 
+{
+    width: 0.3em;
+    height: 0.3em;
+}
+
+::-webkit-scrollbar-track 
+{
+    background: var(--light);
+}
+
+::-webkit-scrollbar-thumb 
+{
+    background: var(--light);
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-track-piece
+{
+    background: var(--black);
+}
+
+::-webkit-scrollbar-button
+{
+    background: var(--dark);
+}

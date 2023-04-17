@@ -1,0 +1,169 @@
+:root 
+{
+    --pink: #E82B63;
+    --dark: #1D232F;
+    --blue: #305581;
+    --light: #5B7290;
+    --black: #000000;
+    --white: #ffffff;
+    --medium: #394657;
+}
+
+body
+{
+  background: var(--blue);
+  color: var(--white);
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+/* header */
+#header
+{
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    z-index: 1;
+}
+
+#menu
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: fit-content;
+    margin-top: 2em;
+    z-index: 1;
+}
+
+.menuItem
+{
+    font: inherit;
+    color: var(--white);
+    font-weight: 800;
+    text-decoration: none;
+    margin-left: 3em;
+    margin-right: 3em;
+    background-color: transparent;
+    border: 0px;
+    z-index: 2;
+}
+
+.menuItem:hover
+{
+    color: var(--light);
+}
+
+#activeMenu
+{
+    color: var(--pink);
+}
+
+
+
+/* content */
+#content
+{
+    background-color: transparent;
+    position: relative;
+    z-index: 2;
+    text-align: left;
+}
+
+#logo
+{
+    width: 20em;
+    margin-top: 12%;
+    margin-left: 8%;
+}
+
+#aboutText
+{
+    width: 30em;
+    margin-top: 4%;
+    margin-left: 8%;
+}
+
+#oProjektu
+{
+    border-radius: 15px;
+    border-color: var(--white);
+    margin-top: 4%;
+    margin-left: 8%;
+    width: 18em;
+    height: 3em;
+    color: var(--white);
+    background-color: var(--dark);
+    font: inherit;
+}
+
+#oProjektu:hover
+{
+    border-color: var(--pink);
+    color: var(--pink);
+}
+
+#backgroundImagePart
+{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    background-color: var(--blue);
+    width: fit-content;
+    height: fit-content;
+}
+
+#backgroundImage
+{
+    width: 25em;
+}
+
+#box
+{
+    position: absolute;
+    background-color: var(--dark);
+    width: 3000px;
+    height: 3000px;
+    transform: rotate(62deg);
+    left: -1700px;
+    top: 100px;
+    z-index: 1;
+}
+
+#boxLine
+{
+    position: absolute;
+    background-color: var(--pink);
+    transform: rotate(62deg);
+    width: 10000px;
+    height: 0.2em;
+    top: 100px;
+    z-index: 0;
+    left: -4296px;
+}
+
+#box2
+{
+    position: absolute;
+    background-color: var(--dark);
+    width: 100%;
+    height: 10em;
+    top: -5em;
+}
+
+#box2Line
+{
+    position: absolute;
+    background-color: var(--pink);
+    width: 100%;
+    height: 0.2em;
+    z-index: 0;
+    top: 5em;
+}

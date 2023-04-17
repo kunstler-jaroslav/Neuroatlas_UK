@@ -1,0 +1,470 @@
+:root 
+{
+    --pink: #E82B63;
+    --dark: #1D232F;
+    --blue: #305581;
+    --light: #5B7290;
+    --black: #000000;
+    --white: #ffffff;
+}
+
+@media (min-width: 320px) and (max-width: 480px) 
+{
+
+  body {
+    background: var(--blue);
+    color: var(--white);
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* content */
+  #content
+  {
+      background-color: transparent;
+      position: relative;
+      z-index: 3;
+      text-align: left;
+      padding-top: 30em;
+  }
+  
+  #aboutText
+  {
+      width: 30em;
+      margin-top: 4%;
+      margin-left: 8%;
+      font-size: 1.5em;
+  }
+  
+  #backgroundImagePart
+  {
+      position: absolute;
+      top: 20%;
+      left: 70%;
+      background-color: var(--blue);
+      width: fit-content;
+      height: fit-content;
+      z-index: 0;
+  }
+  
+  #backgroundImage
+  {
+      width: 40em;
+  }
+  
+  #box
+  {
+      position: absolute;
+      background-color: var(--dark);
+      width: 3000px;
+      height: 3000px;
+      transform: rotate(56deg);
+      left: -1650px;
+      top: 400px;
+      z-index: 3;
+  }
+  
+  #boxLine
+  {
+      position: absolute;
+      background-color: var(--pink);
+      transform: rotate(56deg);
+      width: 10000px;
+      height: 0.4em;
+      top: 100px;
+      z-index: 3;
+      left: -4555px;
+  }
+  
+  #boxContinue
+  {
+      position: absolute;
+      background-color: var(--dark);
+      width: 2000px;
+      height: 3000px;
+      top: 100%;
+      z-index: 3;
+  }
+  
+  #boxLine2
+  {
+      position: absolute;
+      background-color: var(--dark);
+      width: 10000px;
+      height: 0.4em;
+      top: 100%;
+      z-index: 3;
+  }
+  
+  
+  
+  /* texts */
+  h1 
+  {
+    text-align: left;
+    letter-spacing: 1px;
+    word-spacing: 0.15em;
+    font-size: 3em;
+    line-height: 1.2;
+    transform: translateY(52%);
+    margin-left: 8%;
+  }
+  
+  h2
+  {
+      text-align: left;
+      letter-spacing: 1px;
+      word-spacing: 0.15em;
+      font-size: 2em;
+      line-height: 1.2;
+      transform: translateY(52%);
+      margin-left: 8%;
+  }
+  
+  
+  
+  
+  /* scroll */
+  ::-webkit-scrollbar 
+  {
+      width: 0.3em;
+      height: 0.3em;
+  }
+  
+  ::-webkit-scrollbar-track 
+  {
+      background: var(--pink);
+  }
+  
+  ::-webkit-scrollbar-thumb 
+  {
+      background: var(--pink);
+      border-radius: 15px;
+  }
+  
+  ::-webkit-scrollbar-track-piece
+  {
+      background: var(--black);
+  }
+  
+  ::-webkit-scrollbar-button
+  {
+      background: transparent;
+  }
+
+}
+
+@media (min-width: 481px) and (max-width: 999px) 
+{
+
+  body {
+    background: var(--blue);
+    color: var(--white);
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* content */
+  #content
+  {
+      background-color: transparent;
+      position: relative;
+      z-index: 3;
+      text-align: left;
+      padding-top: 40em;
+  }
+  
+  #aboutText
+  {
+      width: 25em;
+      margin-top: 4%;
+      margin-left: 8%;
+      font-size: 3em;
+  }
+  
+  #backgroundImagePart
+  {
+      position: absolute;
+      top: 30%;
+      left: 120%;
+      background-color: var(--blue);
+      width: fit-content;
+      height: fit-content;
+      z-index: 0;
+  }
+  
+  #backgroundImage
+  {
+      width: 60em;
+  }
+  
+  #box
+  {
+      position: absolute;
+      background-color: var(--dark);
+      width: 5000px;
+      height: 5000px;
+      transform: rotate(54deg);
+      left: -2900px;
+      top: 400px;
+      z-index: 3;
+  }
+  
+  #boxLine
+  {
+      position: absolute;
+      background-color: var(--pink);
+      transform: rotate(54deg);
+      width: 10000px;
+      height: 0.6em;
+      top: -200px;
+      z-index: 3;
+      left: -4555px;
+  }
+  
+  #boxContinue
+  {
+      position: absolute;
+      background-color: var(--blue);
+      width: 4000px;
+      height: 6000px;
+      top: 130em;
+      z-index: 3;
+  }
+  
+  #boxLine2
+  {
+      position: absolute;
+      background-color: var(--pink);
+      width: 10000px;
+      height: 0.6em;
+      top: 130em;
+      z-index: 3;
+  }
+  
+  
+  
+  /* texts */
+  h1 
+  {
+    text-align: left;
+    letter-spacing: 1px;
+    word-spacing: 0.15em;
+    font-size: 5em;
+    line-height: 1.2;
+    transform: translateY(52%);
+    margin-left: 8%;
+  }
+  
+  h2
+  {
+      text-align: left;
+      letter-spacing: 1px;
+      word-spacing: 0.15em;
+      font-size: 4em;
+      line-height: 1.2;
+      transform: translateY(52%);
+      margin-left: 8%;
+  }
+  
+  
+  
+  
+  /* scroll */
+  ::-webkit-scrollbar 
+  {
+      width: 0.3em;
+      height: 0.3em;
+  }
+  
+  ::-webkit-scrollbar-track 
+  {
+      background: var(--pink);
+  }
+  
+  ::-webkit-scrollbar-thumb 
+  {
+      background: var(--pink);
+      border-radius: 15px;
+  }
+  
+  ::-webkit-scrollbar-track-piece
+  {
+      background: var(--black);
+  }
+  
+  ::-webkit-scrollbar-button
+  {
+      background: transparent;
+  }
+
+}
+
+@media (min-width: 1000px) 
+{
+
+  body {
+    background: var(--blue);
+    color: var(--white);
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* content */
+  #content
+  {
+      background-color: transparent;
+      position: relative;
+      z-index: 3;
+      text-align: left;
+  }
+  
+  #aboutText
+  {
+      width: 30em;
+      margin-top: 4%;
+      margin-left: 8%;
+  }
+  
+  #oProjektu
+  {
+      border-radius: 15px;
+      border-color: var(--white);
+      margin-top: 4%;
+      margin-left: 8%;
+      width: 18em;
+      height: 3em;
+      color: var(--white);
+      background-color: var(--dark);
+      font: inherit;
+  }
+  
+  #backgroundImagePart
+  {
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      background-color: var(--blue);
+      width: fit-content;
+      height: fit-content;
+      z-index: 0;
+  }
+  
+  #backgroundImage
+  {
+      width: 25em;
+  }
+  
+  #box
+  {
+      position: absolute;
+      background-color: var(--dark);
+      width: 3000px;
+      height: 3000px;
+      transform: rotate(62deg);
+      left: -1700px;
+      top: 100px;
+      z-index: 3;
+  }
+  
+  #boxLine
+  {
+      position: absolute;
+      background-color: var(--pink);
+      transform: rotate(62deg);
+      width: 10000px;
+      height: 0.2em;
+      top: 100px;
+      z-index: 3;
+      left: -4298px;
+  }
+  
+  #boxContinue
+  {
+      position: absolute;
+      background-color: var(--blue);
+      width: 2000px;
+      height: 3000px;
+      top: 100%;
+      z-index: 3;
+  }
+  
+  #boxLine2
+  {
+      position: absolute;
+      background-color: var(--pink);
+      width: 10000px;
+      height: 0.2em;
+      top: 100%;
+      z-index: 3;
+  }
+  
+  
+  
+  /* texts */
+  h1 
+  {
+    text-align: left;
+    letter-spacing: 1px;
+    word-spacing: 0.15em;
+    font-size: 3em;
+    line-height: 1.2;
+    transform: translateY(52%);
+    margin-left: 8%;
+  }
+  
+  h2
+  {
+      text-align: left;
+      letter-spacing: 1px;
+      word-spacing: 0.15em;
+      font-size: 2em;
+      line-height: 1.2;
+      transform: translateY(52%);
+      margin-left: 8%;
+  }
+  
+  
+  
+  
+  /* scroll */
+  ::-webkit-scrollbar 
+  {
+      width: 0.3em;
+      height: 0.3em;
+  }
+  
+  ::-webkit-scrollbar-track 
+  {
+      background: var(--pink);
+  }
+  
+  ::-webkit-scrollbar-thumb 
+  {
+      background: var(--pink);
+      border-radius: 15px;
+  }
+  
+  ::-webkit-scrollbar-track-piece
+  {
+      background: var(--black);
+  }
+  
+  ::-webkit-scrollbar-button
+  {
+      background: transparent;
+  }
+
+}

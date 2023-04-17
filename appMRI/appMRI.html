@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>MRI</title>
+        <script src="appScript.js"></script>
+        <link rel="stylesheet" href="appStyles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap">
+    </head>
+    <body onload="loading()">
+    <div class="content">
+        <div class="picker">
+
+            <div class="container">
+                <div class="arrowdiv"><img src="arrowLeft.png" class="arrows" onclick="chnageScroolSpeed(0.7)"></div>
+                <div class="arrowdiv"><img src="arrowLeft.png" id="left" class="arrows" onclick="left()"></div>
+                <div class="cutBox">
+                    
+                    <img src="data/image000.png" id="imageid">
+                    
+                </div>
+                <div class="arrowdiv"><img src="arrowRight.png" id="right" class="arrows" onclick="right()"></div>
+                <div class="arrowdiv"><img src="arrowRight.png" class="arrows" onclick="chnageScroolSpeed(1.5)"></div>
+                <div class="cutOptions" id="scroller">
+                    <div id="scrollHeight"></div>
+                </div>
+            </div>
+        </div>
+        <div class="texterHolder">
+            <div class="texter">
+                <p id="text"> Hi </p>
+            </div>
+        </div>
+    </div>
+    <script>
+        const scrollDemo = document.querySelector("#scroller");
+        const output = document.querySelector("#text");
+
+        scrollDemo.addEventListener("scroll", event => 
+        {
+            output.innerHTML = `scrollTop: ${scrollDemo.scrollTop} <br>
+                                scrollLeft: ${scrollDemo.scrollLeft} `;
+            scroll(scrollDemo.scrollTop);
+        }, { passive: true });
+
+    </script>
+    </body>
+</html>

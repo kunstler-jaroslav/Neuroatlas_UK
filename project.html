@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Project</title>
+        <script src="projectScript.js"></script>
+        <link rel="stylesheet" href="projectStyles.css">
+        <link rel="stylesheet" href="hamburgerStyles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap">
+    </head>
+    <body>
+
+
+        <div id="backgroundImagePart">
+            <img id="backgroundImage" src="background.jpg">
+        </div>
+        <div id="box"></div>
+        
+        <div id="boxContinue"></div>
+        <div id="boxLine2"></div>
+        <div id="boxLine"></div>
+
+
+        <!--Header START-->
+        <div id="header">
+            <div id="logoPart">
+                <img src="white.png" id="logo" onclick="window.location.href='index.html'">
+            </div>
+        </div>
+        <!--Header END-->
+
+        <!--Hameburger START-->
+        <input id="toggle" type="checkbox"></input>
+        <label for="toggle" class="hamburger">
+        <div class="top-bun"></div>
+        <div class="meat"></div>
+        <div class="bottom-bun"></div>
+        </label>
+        <div class="nav">
+        <div class="nav-wrapper">
+             <!--MENU START-->
+            <nav>
+                <a href="index.html">Home</a><br>
+                <a href="kapitoly.html">Kapitoly</a><br>
+                <a href="frontalni.html">Anatomické řezy</a><br>
+                <a href="mri.html">MRI řezy</a><br>
+                <a href="#">3D modely</a><br>
+                <a href="#">Slovník</a><br><br><br>
+                <a href="#" id="activeMenu">O projektu</a>
+            </nav>
+            <!--MENU END-->
+        </div>
+        </div>
+        <!--Hameburger END-->
+        
+        <!--Content START-->
+        <div id="content">
+            <h1>Neuroatlas</h1>
+            <div id="aboutText">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias mollitia sunt modi, rem maiores pariatur facilis provident saepe, doloribus, et error. Et dolorem doloribus tempora, eum dolor ipsa numquam.
+            </div>
+            <h2>People</h2>
+            <div id="aboutText">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias mollitia sunt modi, rem maiores pariatur facilis provident saepe, doloribus, et error. Et dolorem doloribus tempora, eum dolor ipsa numquam.
+            </div>
+            
+        </div>
+        <!--Content END-->
+
+        
+    </body>
+</html>

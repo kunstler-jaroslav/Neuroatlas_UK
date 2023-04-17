@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>MRI řezy</title>
+        <link rel="stylesheet" href="mriStyles.css">
+        <link rel="stylesheet" href="hamburgerStyles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap">
+    </head>
+    <body>
+        <!--Header START-->
+        <div id="header">
+            <div id="logoPart">
+                <img src="white.png" id="logo" onclick="window.location.href='index.html'">
+            </div>
+            <div id="submenuPart">
+                <div id="submenu">
+                    <button class="submenuBtn" id="activeSubmenu">Frontální</button>
+                    <button class="submenuBtn">Horizontální</button>
+                    <button class="submenuBtn">Sagiální</button>
+                </div>
+            </div>
+        </div>
+        <!--Header END-->
+
+         
+
+        <!--Content-->
+        <iframe class="ifrm" src="appMRI/appMRI.html"></iframe>
+        
+        <!--Content-->
+
+        <!--Hameburger START-->
+        <input id="toggle" type="checkbox"></input>
+        <label for="toggle" class="hamburger">
+        <div class="top-bun"></div>
+        <div class="meat"></div>
+        <div class="bottom-bun"></div>
+        </label>
+        <div class="nav">
+            <div class="nav-wrapper">
+
+                <!--MENU START-->
+                <nav>
+                    <a href="index.html">Home</a><br>
+                    <a href="kapitoly.html">Kapitoly</a><br>
+                    <a href="frontalni.html">Anatomické řezy</a><br>
+                    <a href="mri.html" id="activeMenu">MRI řezy</a><br>
+                    <a href="#">3D modely</a><br>
+                    <a href="#">Slovník</a><br><br><br>
+                    <a href="project.html">O projektu</a>
+                </nav>
+                <!--MENU END-->
+                
+            </div>
+        </div>
+        <!--Hameburger END-->
+       
+
+    </body>
+</html>
